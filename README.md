@@ -1,9 +1,9 @@
-### ** A COMPREHENSIVE U.S BORDER CROSSING ANALYSIS DASHBOARD
+## **A COMPREHENSIVE U.S BORDER CROSSING ANALYSIS DASHBOARD**
 
-#### **Introduction:**
+### **Introduction:**
 Borders play a crucial role in a nation's economy, security, and global relations. The United States shares extensive borders with Canada and Mexico, which serve as vital channels for trade, tourism, and immigration. Monitoring and analyzing the patterns of crossings at these borders is essential for ensuring the smooth operation of ports, optimizing border management strategies, and responding to emerging trends or policy changes. This project is designed to provide a comprehensive analysis of U.S. border crossings using a Power BI dashboard, offering valuable insights into the flow of traffic, the performance of key ports, and the impact of various crossing types. By leveraging advanced data visualization techniques and DAX (Data Analysis Expressions) measures, this dashboard aims to be a powerful tool for stakeholders, enabling them to make informed decisions based on data-driven insights.
 
-#### **Objectives:**
+### **Objectives:**
 
 The primary purpose of this dashboard is to visualize and analyze border crossing activity across the U.S.-Canada and U.S.-Mexico borders. This includes:
 
@@ -21,7 +21,7 @@ The map visualizations in the dashboard help stakeholders understand the geograp
 Interactive Exploration:
 The dashboard is designed for interactive use, allowing users to filter the data by date, port, crossing type, and other factors, enabling customized analysis that meets specific user needs.
 
-#### **Dataset Overview:**
+### **Dataset Overview:**
 The dataset used for this analysis is the Border Crossing Entry Data, which provides detailed information on inbound crossings at U.S.-Canada and U.S.-Mexico borders. Key attributes of the dataset include:
 
 **Port Name:** The specific port where the crossing occurred.
@@ -34,10 +34,11 @@ The dataset used for this analysis is the Border Crossing Entry Data, which prov
 **Latitude & Longitude:** Geospatial data for the port's location.
 The data is collected monthly, providing a temporal aspect that is crucial for analyzing trends and changes over time.
 
-#### **DAX Measures Created**
+### **DAX Measures Created**
 DAX measures were created to support the in-depth analysis of border crossings. Each measure was crafted with a specific purpose in mind, ensuring that the dashboard delivers actionable insights.
 
 **1. Total Crossings**
+
 Formula: Total Crossings = SUM('Border_Crossing_Entry_Data'[Value])
 
 **Purpose:**
@@ -49,6 +50,7 @@ Benchmarking: It can be used to compare total crossings across different ports, 
 Input for Other Calculations: This measure is often the base for more complex calculations like averages, growth percentages, or ratios.
 
 **2. Crossing Trend (3-Month Moving Average)**
+
 Formula:
 Crossing Trend (3-Month Moving Average) = 
 CALCULATE(
@@ -70,6 +72,7 @@ Predictive Insights: By analyzing the trend, stakeholders can predict future tra
 Comparative Analysis: The trend can be compared across different ports or crossing types to see which areas are experiencing growth or decline.
 
 **3. Port Crossing Percentage**
+
 Formula:
 Port Crossing Percentage = 
 DIVIDE(
@@ -86,6 +89,7 @@ Performance Monitoring: By tracking the percentage over time, stakeholders can m
 Resource Allocation: Ports with a higher percentage of crossings may need more resources (e.g., staffing, infrastructure improvements) to manage their traffic effectively.
 
 **4. Cumulative Crossings**
+
 Formula:
 Cumulative Crossings = 
 CALCULATE(
@@ -105,6 +109,7 @@ Trend Analysis: By examining the cumulative total, stakeholders can identify per
 Goal Setting: Cumulative crossings can be compared against targets or goals to assess performance.
 
 **5. Cumulative Percentage**
+
 Formula:
 Cumulative Percentage = 
 DIVIDE([Cumulative Crossings], CALCULATE(SUM('Border_Crossing_Entry_Data'[Value]), ALL('Border_Crossing_Entry_Data')))
@@ -117,6 +122,7 @@ Pareto Analysis: This measure can support Pareto analysis by identifying the poi
 Performance Milestones: It’s useful for tracking when certain milestones are reached (e.g., the first 50% of total crossings).
 
 **6. Passenger to Vehicle Ratio**
+
 Formula:
 Passenger to Vehicle Ratio = 
 DIVIDE([Total Passengers], [Total Vehicles])
@@ -129,6 +135,7 @@ Resource Allocation: Ports with a high passenger-to-vehicle ratio may require di
 Trend Monitoring: By tracking changes in this ratio over time, stakeholders can monitor shifts in the nature of border traffic, possibly reflecting changes in travel behavior or economic activity.
 
 **7. Previous Year Crossings**
+
 Formula:
 Previous Year Crossings = 
 CALCULATE(
@@ -145,6 +152,7 @@ Impact Analysis: By comparing with the previous year, stakeholders can assess th
 Forecasting: Historical comparisons provide a basis for forecasting future trends, especially when used in conjunction with other measures like YoY Growth %.
 
 **8. YoY Growth %**
+
 Formula:
 YoY Growth % = 
 DIVIDE(
@@ -160,6 +168,7 @@ Performance Evaluation: This measure helps evaluate the effectiveness of border 
 Decision-Making: By understanding growth trends, stakeholders can make informed decisions about where to focus resources or how to adjust strategies to manage border traffic effectively.
 
 **9. Total Passengers**
+
 Formula:
 Total Passengers = 
 CALCULATE(
@@ -175,6 +184,7 @@ Operational Planning: High passenger volumes may require more processing resourc
 Crossing Type Comparison: By comparing passenger traffic with vehicle traffic (using the Passenger to Vehicle Ratio), stakeholders can gain insights into the balance between the two and how it changes over time.
 
 **10. Total Vehicles**
+
 Formula:
 Total Vehicles = 
 CALCULATE(
