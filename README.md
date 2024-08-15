@@ -204,7 +204,7 @@ Comparative Analysis: Comparing vehicle traffic across different ports
 
 1. Sankey Diagram
 
-<img src="https://github.com/Aishwaryachen11/U.S-Border-Crossing-Analysis-Power-BI-Dashboard/blob/main/Images/Sankey%20Chart.png" alt="Description" width="400"/>
+<img src="https://github.com/Aishwaryachen11/U.S-Border-Crossing-Analysis-Power-BI-Dashboard/blob/main/Images/Sankey%20Chart.png" alt="Description" width="500"/>
  
 **Purpose:**
 The Sankey Diagram is used to visualize the flow of border crossings from different crossing types to specific borders (U.S.-Mexico and U.S.-Canada). It highlights the distribution and volume of traffic across different categories, providing a clear picture of how traffic is segmented by crossing type and border.
@@ -216,7 +216,7 @@ Port Strategy: The diagram can inform border management strategies by showing wh
 
 **2. Decomposition Tree**
 
-<img src="https://github.com/Aishwaryachen11/U.S-Border-Crossing-Analysis-Power-BI-Dashboard/blob/main/Images/Decomposition%20Tree.png" alt="Description" width="400"/>
+<img src="https://github.com/Aishwaryachen11/U.S-Border-Crossing-Analysis-Power-BI-Dashboard/blob/main/Images/Decomposition%20Tree.png" alt="Description" width="500"/>
 
 **Purpose:**
 The Decomposition Tree is a powerful tool for breaking down the factors that contribute to total border crossings. It allows users to explore the data interactively, drilling down into various dimensions such as border, crossing type, and state to understand what drives traffic volumes.
@@ -228,7 +228,7 @@ Comparative Insights: By comparing different branches of the tree, users can qui
 
 **3. Line and Clustered Column Chart (Combo Chart)**
 
-<img src="https://github.com/Aishwaryachen11/U.S-Border-Crossing-Analysis-Power-BI-Dashboard/blob/main/Images/Line%20and%20Clustered%20Column%20Chart.png" alt="Description" width="400"/>
+<img src="https://github.com/Aishwaryachen11/U.S-Border-Crossing-Analysis-Power-BI-Dashboard/blob/main/Images/Line%20and%20Clustered%20Column%20Chart.png" alt="Description" width="500"/>
 
 **Purpose:**
 The Line and Clustered Column Chart combines trend analysis with actual crossing volumes, providing a comprehensive view of port performance over time. This visualization is particularly useful for identifying seasonal patterns, trends, and anomalies in crossing data at specific ports.
@@ -252,7 +252,7 @@ Comparative Analysis: By overlaying data from different years, users can compare
 
 **5. Donut Chart: Passenger and Vehicle Ratio Analysis**
 
-<img src="https://github.com/Aishwaryachen11/U.S-Border-Crossing-Analysis-Power-BI-Dashboard/blob/main/Images/Donut%20Chart.png" alt="Description" width="400"/>
+<img src="https://github.com/Aishwaryachen11/U.S-Border-Crossing-Analysis-Power-BI-Dashboard/blob/main/Images/Donut%20Chart.png" alt="Description" width="300"/>
 
 **Purpose:**
 The Donut Chart is designed to compare the ratio of passenger crossings to vehicle crossings. It provides a visual representation of how different types of crossings contribute to the overall border traffic.
@@ -276,7 +276,7 @@ Operational Efficiency: The map can inform decisions about where to allocate res
 
 **7. Matrix Visualization**
 
-<img src="https://github.com/Aishwaryachen11/U.S-Border-Crossing-Analysis-Power-BI-Dashboard/blob/main/Images/Matrix.png" alt="Description" width="200"/>
+<img src="https://github.com/Aishwaryachen11/U.S-Border-Crossing-Analysis-Power-BI-Dashboard/blob/main/Images/Matrix.png" alt="Description" width="250"/>
 
 **Purpose:**
 The Matrix Visualization is used to list the top ports with high traffic, along with their respective crossing percentages. It provides a tabular view of the data, enhanced with data bars for better visual comparison.
@@ -288,7 +288,7 @@ Detailed Analysis: The matrix format allows for a detailed, granular analysis of
 
 **8. Multi-Row Card Visualization**
 
-<img src="https://github.com/Aishwaryachen11/U.S-Border-Crossing-Analysis-Power-BI-Dashboard/blob/main/Images/Multi-Row%20Card.png" alt="Description" width="200"/>
+<img src="https://github.com/Aishwaryachen11/U.S-Border-Crossing-Analysis-Power-BI-Dashboard/blob/main/Images/Multi-Row%20Card.png" alt="Description" width="250"/>
 
 **Purpose:**
 The Multi-Row Card is designed to display key metrics for high-traffic ports, providing a quick snapshot of total crossings for each port. This visualization is particularly useful for highlighting the most
