@@ -204,7 +204,7 @@ Comparative Analysis: Comparing vehicle traffic across different ports
 
 1. Sankey Diagram
 
-<img src="https://github.com/Aishwaryachen11/U.S-Border-Crossing-Analysis-Power-BI-Dashboard/blob/main/Images/Sankey%20Chart.png" alt="Description" width="500"/>
+<img src="https://github.com/Aishwaryachen11/U.S-Border-Crossing-Analysis-Power-BI-Dashboard/blob/main/Images/Sankey%20Chart.png" alt="Description" width="460"/>
  
 **Purpose:**
 The Sankey Diagram is used to visualize the flow of border crossings from different crossing types to specific borders (U.S.-Mexico and U.S.-Canada). It highlights the distribution and volume of traffic across different categories, providing a clear picture of how traffic is segmented by crossing type and border.
