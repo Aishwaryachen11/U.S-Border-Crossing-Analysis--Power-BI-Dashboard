@@ -1,5 +1,7 @@
 ## **A COMPREHENSIVE U.S BORDER CROSSING ANALYSIS DASHBOARD**
 
+Power BI report can be viewed here [![Power BI Report](https://img.shields.io/badge/Power_BI-Report-blue)](https://app.powerbi.com/reportEmbed?reportId=60b169e3-363c-475a-9600-6893bfcbd719&autoAuth=true&ctid=a07a08e4-f462-4dcc-adea-5a9d6e00d8ec)
+
 ### **Introduction:**
 Borders play a crucial role in a nation's economy, security, and global relations. The United States shares extensive borders with Canada and Mexico, which serve as vital channels for trade, tourism, and immigration. Monitoring and analyzing the patterns of crossings at these borders is essential for ensuring the smooth operation of ports, optimizing border management strategies, and responding to emerging trends or policy changes. This project is designed to provide a comprehensive analysis of U.S. border crossings using a Power BI dashboard, offering valuable insights into the flow of traffic, the performance of key ports, and the impact of various crossing types. By leveraging advanced data visualization techniques and DAX (Data Analysis Expressions) measures, this dashboard aims to be a powerful tool for stakeholders, enabling them to make informed decisions based on data-driven insights.
 
